@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="app.css">
+        <script src="newAccount.js" defer></script>
+        <title>Create a New Account!</title>
+    </head>
+    <body>
+        <h1>Make a new account</h1>
+        <nav> 
+            <ul class="nav-bar">
+                <li><a class="nav-link" href="index.html">Home</a></li>
+            </ul>
+        </nav>    
+        <form class="signup">
+            <label for="first-name">First Name</label>
+            <input type="text" name="first_name" id="first-name">
+            <label for="last-name">Last Name</label>
+            <input type="text" name="last_name" id="last-name">
+            <label for="username">Username</label>
+            <input type="text" name="username" id="username">
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password">
+            <input type="submit" value="Create New Account" onClick="redirect()">
+        </form>
+    </body>
+</html>

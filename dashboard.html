@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="dashboard.js" defer></script>
+        ç
+        <title>my Dashboard</title>
+    </head>
+    <body>
+        <h1>myDashboard</h1>
+        <nav> 
+            <ul class="nav-bar">
+                <li><a class="nav-link" href="index.html">Home</a></li>
+            </ul>
+        </nav> 
+        <h2>Post a new round</h2>
+        <form class="new-round">
+            <label for="golfcourse_id">Course:</label>
+            <select id="course-dropdown" name="golfcourse_id"></select>
+            <label for="teebox_id">Tee Box:</label>
+            <select id="teebox-dropdown" name="teebox_id"></select>
+            <label for="score">Score:</label>
+            <input type="number" name="score">
+            <input type="submit" value="Post Round">
+        </form>   
+    </body>
+</html>
