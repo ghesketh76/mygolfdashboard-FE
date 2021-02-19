@@ -1,6 +1,7 @@
 const loginURL = "http://localhost:3000/login"
 
-const login = document.querySelector('.sign-in')
+const login = document.querySelector('.sign-in-form')
+console.log(login)
 
 login.addEventListener('submit', loginUser)
 

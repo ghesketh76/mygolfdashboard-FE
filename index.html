@@ -38,18 +38,27 @@
         <title>myGolfDashboard</title>
     </head>
     <body>
-        <header>
+        <header class="sticky">
             <h1 class="nav-h1">myGolfDashboard</h1>
             <nav> 
                 <ul class="nav-bar">
-                    <li><a class="nav-link" href="newAccount.html">Create Account</a></li>
-                    <li><a class="nav-link" href="signin.html">Sign In</a></li>
-                    <li><a class="nav-link" href="dashboard.html">My Dashboard</a></li>
+                    <li class="nav-list"><a class="nav-link" href="newAccount.html">Create Account</a></li>
+                    <li class="nav-list"><a class="nav-link" href="signin.html">Sign In</a></li>
+                    <li class="nav-list"><a class="nav-link" href="dashboard.html">My Dashboard</a></li>
                 </ul>
             </nav>    
         </header>
-        <h2>Courses:</h2>
+        <main>
+        <h2 id="course-head">Courses:</h2>
         <section class="show-all-courses"></section>
         <div id="mapid"></div>
+
+        <div class="background-image-container"> 
+            <img
+                class="background-image"
+                src="/klipartz.com.png"
+            >
+        </div>
+        </main>
     </body>
 </html>

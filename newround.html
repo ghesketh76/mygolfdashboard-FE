@@ -4,33 +4,28 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script src="dashboard.js" defer></script>
+        <script src="newround.js" defer></script>
         <link rel="stylesheet" href="app.css">
-        <title>my Dashboard</title>
+        <title>Post a New Round</title>
     </head>
     <body>
-        <header class="sticky">
         <h1 class="nav-h1">myGolfDashboard</h1>
         <nav> 
             <ul class="nav-bar">
                 <li class="nav-list"><a class="nav-link" href="index.html">Home</a></li>
-                <li class="nav-list"><a class="nav-link" href="newround.html">Post New Round</a></li>
-
             </ul>
         </nav> 
-        </header>
-        <main>
-        <h2 class="average">Your average score for the last 10 rounds is:</h2>  
-        <p id="average"></p>
-        <h2 class="average">Your scoring history:</h2>
-        <ul class="all-rounds"></ul>
-
+        <h1 class="new-round">Post a New Round:</h1>
+        <form class="new-round-form">
+            <select id="course-dropdown" name="golfcourse_id"></select>
+            <input type="number" name="score" placeholder="Score">
+            <input type="submit" value="Post Round">
+        </form> 
         <div class="background-image-container"> 
             <img
                 class="background-image"
                 src="/klipartz.com.png"
             >
         </div>
-        </main>
     </body>
 </html>

@@ -19,6 +19,7 @@ fetch(courseURL)
         const coursePhone = document.createElement('h3')
         const holes = document.createElement('h3')
         const par = document.createElement('h3')
+        const table = document.createElement('table')
         
         courseName.textContent = course.name
         courseAddress.textContent = `${course.address} ${course.city}, ${course.state} ${course.zip}`
@@ -28,6 +29,10 @@ fetch(courseURL)
         par.textContent = `Par: ${course.par}`
         coursePhone.textContent = `Phone: ${course.phone}`
 
+        
+        
         showCourse.append(courseName, courseAddress, coursePhone, courseWebsite, teeTimes, holes, par )
         
     })
+
+
