@@ -1,4 +1,4 @@
-# Outdoor Activity Rating Web App Frontend
+# myGolfDashboard Web App Frontend
 
 ## General Info
 
